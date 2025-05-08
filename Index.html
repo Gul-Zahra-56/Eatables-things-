@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Styled Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- External CSS -->
+</head>
+<style>
+body {
+    background-color:goldenrod;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+.description {
+    color: green;
+    font-weight: bold;
+}
+
+.blog-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:pink;
+    border: 2px solid;
+    text-decoration: none;
+    font-weight: bold;
+    color: purple;
+    box-shadow: 3px 3px 5px;
+    margin: 20px 0;
+}
+
+.blog-button::before {
+    content: "• ";
+    color: blue;
+}
+
+.note {
+    color: black;
+    font-weight: bold;
+</style>
+<body>
+    <div class="container">
+        <h1>MY PAGE WITH STYLING</h1>
+        <p class="description">
+            I am trying to modify my webpage by styling with the help of CSS(External).
+        </p>
+        <ul>
+        <div class="button-container">
+            <a href="blog.html" class="blog-button">MY BLOG POST</a>
+            </ul>
+        </div>
+        <p class="note">
+            Click the above button to take a look of <em>MY BLOG POST</em>.
+        </p>
+    </div>
+</body>
+</html>
+
+
+
